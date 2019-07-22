@@ -1,4 +1,4 @@
-# Guqin Dataset [中文]([https://github.com/lukewys/Guqin-Dataset#%E5%8F%A4%E7%90%B4%E6%95%B0%E6%8D%AE%E9%9B%86](https://github.com/lukewys/Guqin-Dataset#%E5%8F%A4%E7%90%B4%E6%95%B0%E6%8D%AE%E9%9B%86))
+# Guqin Dataset [中文](https://github.com/lukewys/Guqin-Dataset#%E5%8F%A4%E7%90%B4%E6%95%B0%E6%8D%AE%E9%9B%86)
 
 Guqin dataset is a symbolic music dataset containing music from [Guqin](https://en.wikipedia.org/wiki/Guqin), an ancient Chinese pluck instrument. The scores in Guqin dataset are collected from Guqin collection that formated in [reduced notation](https://en.wikipedia.org/wiki/Guqin_notation) with [numbered notation](https://en.wikipedia.org/wiki/Numbered_musical_notation) published in recent years. The numbered notation in the score are then transcripted and converted into MusicXML files (.xml). The content transcripted are melody and overtone notation in numbered notation, with other notation ignored.
 

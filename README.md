@@ -5,11 +5,9 @@ Guqin dataset is a symbolic music dataset containing music from [Guqin](https://
 ## Content
 [Guqin_Dataset_v1](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1 "Guqin_Dataset_v1")：Guqin dataset
 
-*[xml](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml "xml")：Guqin music in MusicXML format with each phrase (or paragraph) as an individual file. The file name is format in "score-name_phrase".
-
-*[xml_no_split](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml_no_split "xml_no_split")：Guqin music in MusicXML format with each piece as an individual file.
-
-*[reference.csv](https://github.com/lukewys/Guqin-Dataset/blob/master/Guqin_Dataset_v1/reference.csv "reference.csv")：The metadata of Guqin score in dataset, including score name, tuning, reference, original reference, performer, the recording or organizing person of the score.
+* [xml](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml "xml")：Guqin music in MusicXML format with each phrase (or paragraph) as an individual file. The file name is format in "score-name_phrase".
+* [xml_no_split](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml_no_split "xml_no_split")：Guqin music in MusicXML format with each piece as an individual file.
+* [reference.csv](https://github.com/lukewys/Guqin-Dataset/blob/master/Guqin_Dataset_v1/reference.csv "reference.csv")：The metadata of Guqin score in dataset, including score name, tuning, reference, original reference, performer, the recording or organizing person of the score.
         
  ## Format
 
@@ -32,11 +30,9 @@ Special thanks to students who contribute to Guqin dataset：张子谦、许阳�
 
 [Guqin_Dataset_v1](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1 "Guqin_Dataset_v1")：古琴数据集
 
-*[xml](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml "xml")：MusicXML格式的古琴曲，每段为单独的一个文件，以“琴曲名_段落编号”形式的文件名储存。
-
-*[xml_no_split](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml_no_split "xml_no_split")：MusicXML格式的古琴曲，每个琴曲为一个文件。
-
-*[reference.csv](https://github.com/lukewys/Guqin-Dataset/blob/master/Guqin_Dataset_v1/reference.csv "reference.csv")：琴谱的元信息标注，包含曲谱名称、定弦、琴谱来源、琴曲来源、演奏者与打谱或记谱者的信息。
+* [xml](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml "xml")：MusicXML格式的古琴曲，每段为单独的一个文件，以“琴曲名_段落编号”形式的文件名储存。
+* [xml_no_split](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml_no_split "xml_no_split")：MusicXML格式的古琴曲，每个琴曲为一个文件。
+* [reference.csv](https://github.com/lukewys/Guqin-Dataset/blob/master/Guqin_Dataset_v1/reference.csv "reference.csv")：琴谱的元信息标注，包含曲谱名称、定弦、琴谱来源、琴曲来源、演奏者与打谱或记谱者的信息。
 
 ## 文件格式
 

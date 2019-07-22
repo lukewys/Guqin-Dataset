@@ -1,15 +1,16 @@
+# Guqin Dataset [中文]([https://github.com/lukewys/Guqin-Dataset#%E5%8F%A4%E7%90%B4%E6%95%B0%E6%8D%AE%E9%9B%86](https://github.com/lukewys/Guqin-Dataset#%E5%8F%A4%E7%90%B4%E6%95%B0%E6%8D%AE%E9%9B%86))
 
-# Guqin Dataset
 Guqin dataset is a symbolic music dataset containing music from [Guqin](https://en.wikipedia.org/wiki/Guqin), an ancient Chinese pluck instrument. The scores in Guqin dataset are collected from Guqin collection that formated in [reduced notation](https://en.wikipedia.org/wiki/Guqin_notation) with [numbered notation](https://en.wikipedia.org/wiki/Numbered_musical_notation) published in recent years. The numbered notation in the score are then transcripted and converted into MusicXML files (.xml). The content transcripted are melody and overtone notation in numbered notation, with other notation ignored.
 
 ## Content
+
 [Guqin_Dataset_v1](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1 "Guqin_Dataset_v1")：Guqin dataset
 
 * [xml](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml "xml")：Guqin music in MusicXML format with each phrase (or paragraph) as an individual file. The file name is format in "score-name_phrase".
 * [xml_no_split](https://github.com/lukewys/Guqin-Dataset/tree/master/Guqin_Dataset_v1/xml_no_split "xml_no_split")：Guqin music in MusicXML format with each piece as an individual file.
 * [reference.csv](https://github.com/lukewys/Guqin-Dataset/blob/master/Guqin_Dataset_v1/reference.csv "reference.csv")：The metadata of Guqin score in dataset, including score name, tuning, reference, original reference, performer, the recording or organizing person of the score.
-        
- ## Format
+  
+  ## Format
 
 MusicXML file contains melody in numbered notation and overtone notation. The overtone notation is presented in staccato (in black solid dot).  In MusicXML files, the title of the file is the same as the file name, and the time signature is included.
 
@@ -24,7 +25,6 @@ Special thanks to students who contribute to Guqin dataset：张子谦、许阳�
 # 古琴数据集
 
 古琴数据集是一个包含古琴曲的符号化音乐数据集。古琴数据集中的古琴谱由我们收集的近年出版的带有简谱的琴谱转录而成。转录的内容为简谱中的旋律与泛音标记，忽略了其他表情记号。古琴数据集中的文件数据格式为MusicXML（.xml）。
-
 
 ## 内容
 
@@ -45,4 +45,3 @@ MusicXML文件包含琴谱的简谱中的旋律与泛音标记。泛音标记使
 ## 致谢
 
 特别感谢参与古琴数据集建设的同学：张子谦、许阳、苗天辰、张逸嘉。
-

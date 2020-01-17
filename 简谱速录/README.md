@@ -72,10 +72,10 @@ Python的运行环境需要安装如下包：`pip install numpy pandas music21`�
 程序在转换的同时会输出录入可能存在的错误。可以提示的错误类型如下：
 
 - 不完整小节Incomplete Measure: 即当前小节不为整数拍。
-
 - 多个音高Multiple Pitch：一个音符内录入了多个音高（排除多音）。
-
 - 无音高或有多个相同音高No Pitch or Multiple Same Pitch：一个音符内没有录入音高或者录入了多个相同音高。
+
+泛音的转换：泛音记号在谱子中以跳音（即实心圆点）的形式显示。因为我们发现现有的大部分打谱软件都无法正确的显示MusicXML 格式曲谱的泛音标记。我们已针对MuseScore 软件提交了相关的bug 修复，具体见https://musescore.org/en/node/294628。该bug 已被修复，但还未被加入发行版中。将跳音改为泛音记号的方法见代码注释。
 
 其他程序：`add_harmonic.py`
 

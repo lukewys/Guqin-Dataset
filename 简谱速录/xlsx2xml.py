@@ -101,6 +101,7 @@ class NumberedNote:
         # 在这里暂时使用跳音（即实心圆点）代表泛音
         # 实际上，应使用泛音记号（空心圆点）表示泛音，
         # 但是发现MuseScore对于MusicXML中泛音记号的显示有Bug。
+        # 具体见https://musescore.org/en/node/294628。该bug 已被修复，但还未被加入发行版中。
         # 如果希望使用泛音记号（空心圆点），则将
         # articu = music21.articulations.Staccato()改为
         # articu = music21.articulations.StringHarmonic()
